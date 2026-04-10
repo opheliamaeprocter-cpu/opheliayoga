@@ -155,7 +155,24 @@ export default function Website() {
                   type="submit"
                   className="rounded-full bg-[#d1a04a] px-6 py-3 text-white text-sm tracking-[0.16em] hover:opacity-90"
                 >
-                  JOIN MAILING LIST
+                  <form
+  action="https://formspree.io/f/https://formspree.io/f/xojpolqz"
+  method="POST"
+  className="flex flex-col sm:flex-row gap-3 mt-4"
+>
+  <input
+    type="email"
+    name="email"
+    placeholder="Enter your email"
+    required
+    className="px-4 py-3 rounded-full text-black w-full"
+  />
+
+  <button
+    type="submit"
+    className="bg-[#d1a04a] px-6 py-3 rounded-full text-white"
+  >
+    Join Mailing List
                 </button>
               </form>
             </div>
@@ -187,10 +204,10 @@ export default function Website() {
             <div className="mt-8">
               <div className="flex gap-3">
               <a
+
   href="https://mail.google.com/mail/?view=cm&fs=1&to=opheliamaeprocter@gmail.com&su=Yoga%20Enquiry"
   target="_blank"
   rel="noreferrer"
-  className="bg-[#d1a04a] px-6 py-3 rounded-full text-white"
 >
   EMAIL OPHELIA
 </a>
