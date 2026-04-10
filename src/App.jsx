@@ -133,51 +133,37 @@ export default function Website() {
           </div>
         </section>
 
-        <section id="summer" className="border-y py-20">
-          <div className="mx-auto max-w-4xl px-6 text-center">
-            <h2 className="font-serif text-4xl">Group Classes in Villars-sur-Ollon</h2>
-            <p className="mt-6 text-lg text-black/75">
-              Group classes coming to Villars-sur-Ollon this summer.
-            </p>
-            <p className="mt-3 text-black/70">
-              Sign up below to join the mailing list and be the first to hear updates.
-            </p>
+<section id="summer" className="border-y py-20">
+  <div className="mx-auto max-w-4xl px-6 text-center">
+    <h2 className="font-serif text-4xl">Group Classes in Villars-sur-Ollon</h2>
+    <p className="mt-6 text-lg text-black/75">
+      Group classes coming to Villars-sur-Ollon this summer.
+    </p>
+    <p className="mt-3 text-black/70">
+      Sign up below to join the mailing list and be the first to hear updates.
+    </p>
 
-            <div className="mt-8 max-w-md mx-auto">
-              <form className="flex flex-col gap-3">
-                <input
-                  type="email"
-                  placeholder="Your email address"
-                  className="rounded-full border px-5 py-3 text-sm focus:outline-none"
-                  required
-                />
-                <button
-                  type="submit"
-                  className="rounded-full bg-[#d1a04a] px-6 py-3 text-white text-sm tracking-[0.16em] hover:opacity-90"
-                >
-                  <form
-  action="https://formspree.io/f/xojpolqz"
-  method="POST"
-  className="flex flex-col sm:flex-row gap-3 mt-4"
->
-  <input
-    type="email"
-    name="email"
-    placeholder="Enter your email"
-    required
-    className="px-4 py-3 rounded-full text-black w-full"
-  />
-
-  <button
-    type="submit"
-    className="bg-[#d1a04a] px-6 py-3 rounded-full text-white"
-  >
-    Join Mailing List
-  </button>
-</form>
-            </div>
-          </div>
-        </section>
+    <form
+      action="https://formspree.io/f/xojpolqz"
+      method="POST"
+      className="mt-8 max-w-md mx-auto flex flex-col gap-3"
+    >
+      <input
+        type="email"
+        name="email"
+        placeholder="Your email address"
+        required
+        className="rounded-full border px-5 py-3 text-sm text-black focus:outline-none"
+      />
+      <button
+        type="submit"
+        className="rounded-full bg-[#d1a04a] px-6 py-3 text-white text-sm tracking-[0.16em] hover:opacity-90"
+      >
+        JOIN MAILING LIST
+      </button>
+    </form>
+  </div>
+</section>
 
         <section id="contact" className="py-20">
           <div className="mx-auto max-w-5xl px-6 border rounded-3xl p-10 bg-black text-white">
