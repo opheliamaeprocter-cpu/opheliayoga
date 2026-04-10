@@ -156,7 +156,7 @@ export default function Website() {
                   className="rounded-full bg-[#d1a04a] px-6 py-3 text-white text-sm tracking-[0.16em] hover:opacity-90"
                 >
                   <form
-  action="https://formspree.io/f/https://formspree.io/f/xojpolqz"
+  action="https://formspree.io/f/xojpolqz"
   method="POST"
   className="flex flex-col sm:flex-row gap-3 mt-4"
 >
@@ -173,8 +173,8 @@ export default function Website() {
     className="bg-[#d1a04a] px-6 py-3 rounded-full text-white"
   >
     Join Mailing List
-                </button>
-              </form>
+  </button>
+</form>
             </div>
           </div>
         </section>
