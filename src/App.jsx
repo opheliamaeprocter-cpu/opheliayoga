@@ -190,6 +190,7 @@ export default function Website() {
   href="https://mail.google.com/mail/?view=cm&fs=1&to=opheliamaeprocter@gmail.com&su=Yoga%20Enquiry"
   target="_blank"
   rel="noreferrer"
+  className="bg-[#d1a04a] px-6 py-3 rounded-full text-white"
 >
   EMAIL OPHELIA
 </a>
