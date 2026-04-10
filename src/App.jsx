@@ -186,9 +186,13 @@ export default function Website() {
 
             <div className="mt-8">
               <div className="flex gap-3">
-              <a href="mailto:opheliamaeprocter@gmail.com" className="bg-[#d1a04a] px-6 py-3 rounded-full text-white">
-                EMAIL OPHELIA
-              </a>
+              <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=opheliamaeprocter@gmail.com&su=Yoga%20Enquiry"
+  target="_blank"
+  rel="noreferrer"
+>
+  EMAIL OPHELIA
+</a>
               <a href="https://wa.me/41796729890" target="_blank" className="border border-white/30 px-6 py-3 rounded-full text-white">
                 WHATSAPP
               </a>
